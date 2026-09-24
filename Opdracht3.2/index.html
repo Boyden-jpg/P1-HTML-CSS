@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hallo hi, Abonnementsformulier</title>
+  </head>
+  <body>
+    <h1>Hallo hi, Abonnementsformulier</h1>
+
+    <!-- Voornaam -->
+    <form action="#" method="post">
+      <label for="voornaam">Voornaam:</label>
+      <input
+        type="text"
+        id="voornaam"
+        name="voornaam"
+        placeholder="Voornaam"
+        pattern="[A-Za-z\s-]+{2,}"
+        title="Voornaam moet minimaal 2 letters bevatten."
+        title="Gebruik alleen letters"
+        required
+      />
+      <br />
+      <br />
+
+      <!-- Achternaam -->
+      <label for="achternaam">Achternaam:</label>
+      <input
+        type="text"
+        id="achternaam"
+        name="achternaam"
+        placeholder="Achternaam"
+        pattern="[A-Za-z\s-]+{2,}"
+        title="Achternaam moet minimaal 2 letters bevatten."
+        title="Gebruik alleen letters"
+        required
+      />
+      <br />
+      <br />
+
+      <!-- Aanhef -->
+      <label for="aanhef">Aanhef:</label>
+      <input type="radio" id="aanhef" name="aanhef" value="Dhr" checked />
+      <label for="Dhr">Dhr</label>
+      <input type="radio" id="aanhef" name="aanhef" value="Mevr" />
+      <label for="Mevr">Mevr</label>
+      <input type="radio" id="aanhef" name="aanhef" value="Anders" />
+      <label for="Anders">Anders</label>
+      <br />
+      <br />
+      <!-- Straat -->
+      <label for="straat">Straat:</label><br />
+      <input
+        type="text"
+        id="straat"
+        name="straat"
+        placeholder="Stationsweg 12"
+        required
+      />
+      <br />
+      <br />
+
+      <!-- Postcode -->
+      <label for="postcode">Postcode:</label><br />
+      <input
+        type="text"
+        id="postcode"
+        name="postcode"
+        pattern="[1-9][0-9]{3}\s?[A-Z]{2}"
+        placeholder="1234 AB"
+        required
+      />
+      <br />
+      <br />
+
+      <!-- Woonplaats -->
+      <label for="woonplaats">Woonplaats:</label><br />
+      <input
+        type="text"
+        id="woonplaats"
+        name="woonplaats"
+        placeholder="Uw woonplaats"
+        required
+      />
+      <br />
+      <br />
+      <!-- Land -->
+      <label for="land">Land:</label><br />
+      <input
+        type="text"
+        id="land"
+        name="land"
+        placeholder="Nederland"
+        required
+      />
+      <br />
+      <br />
+      <!-- IBAN-nummer -->
+      <label for="iban">IBAN-nummer:</label><br />
+      <input
+        type="text"
+        id="iban"
+        name="iban"
+        pattern="[A-Z]{2}[0-9]{2}[A-Z0-9]{1,18}"
+        placeholder="NL91ABNA0417164300"
+        required
+      />
+      <br />
+      <br />
+      <!-- type abonnement -->
+      <label for="abonnement">Type abonnement:</label><br />
+      <select id="abonnement" name="abonnement" required>
+        <option value="">Kies een abonnement</option>
+        <option>mobiel</option>
+        <option>Glazvezel</option>
+        <option>TV</option>
+      </select>
+      <br />
+      <br />
+
+      <!-- ingangdatum -->
+      <label for="startdatum">Datum van ingang abonnement:</label><br />
+      <input
+        type="date"
+        id="startdatum"
+        name="startdatum"
+        min="2026-09-24"
+        required
+      />
+
+      <br />
+      <br />
+
+      <!-- looptijdabonnement -->
+      <label for="looptijd">Looptijd abonnement:</label><br />
+      <input
+        type="number"
+        id="looptijd"
+        name="looptijd"
+        min="1"
+        max="12"
+        required
+      />
+      <br />
+      <br />
+
+      <!-- aantalgebruikers -->
+      <label for="aantalgebruikers">Aantal gebruikers:</label><br />
+      <input
+        type="number"
+        id="aantalgebruikers"
+        name="aantalgebruikers"
+        min="1"
+        max="4"
+        required
+      />
+      <br />
+      <br />
+
+      <!-- E-mail -->
+      <label for="email">E-mail:</label><br />
+      <input type="email" id="email" name="email" required
+        placeholder="Plaats hier uw e-mail" />
+
+      <br />
+      <br />
+
+      <!-- Wachtwoordmaken -->
+      <label for="wachtwoord">Wachtwoord:</label><br />
+      <input type="password" id="wachtwoord" name="wachtwoord" required
+        placeholder="Uw wachtwoord" />
+      <br />
+      <br />
+
+      <!-- verzendknop -->
+      <input type="submit" value="Verzenden" />
+    </form>
+  </body>
+</html>
