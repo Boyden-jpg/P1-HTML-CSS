@@ -1,0 +1,22 @@
+table{
+    color: white;
+    border-spacing: 0px;
+}
+
+th{
+background: #aaa9e8;
+padding: 15px 20px;
+}
+
+td{
+    background: black;
+    padding: 15px 20px;
+}
+
+td:first-child{
+    background-color: #7271d1;
+}
+
+tr:last-child td:last-child{
+    border-bottom-right-radius: 50px;
+}
