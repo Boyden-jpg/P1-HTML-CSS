@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+nav{
+    background-color: #7272dd;
+    color: white;
+    padding: 20px;
+}
+header{
+    background-color: black;
+    color: white;
+}
+section:first-child{
+    background-color: black;
+    color: white;
+}
+section:nth-child(2){
+    background-color: white;
+    color: black;
+}
+footer{
+    background-color: #9000ff;
+    color: white;
+    padding: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+}
+span{
+    padding: 30px;
+}
+.BekijkDeal{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.Ontdekmeer{
+    padding: 10px;
+    background-color: #9000ff;
+    color: white;
+    border-radius: 15px;
+}
+.Ontdekmobiel{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+img{
+    position: relative;
+    left: 255px;
+    top: 50px;
+}
+h1{
+    font-size: 100px;
+}
