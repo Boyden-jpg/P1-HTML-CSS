@@ -50,11 +50,14 @@ span{
     color: white;
     border-radius: 15px;
 }
-img{
-    position: relative;
-    left: 255px;
-    top: 50px;
-}
 h1{
     font-size: 100px;
+}
+.hilogo{
+    display: flex;
+    justify-content: flex-start;
+}
+.hi{
+    width: 100px;
+    height: 100px;
 }

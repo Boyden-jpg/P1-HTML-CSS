@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: purple;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: max-content;
+    background-color: purple;
+}
+
+.dropdown li {
+    display: block;
+    padding: 10px;
+}
+
+nav li:hover .dropdown {
+    display: block;
+    border-bottom-right-radius: 50px;
+}
+
+.dropdown a:hover {
+    color:black;
+}

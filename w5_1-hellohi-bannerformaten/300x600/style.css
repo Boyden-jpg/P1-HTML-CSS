@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stage {
+  position: relative;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bannerSize {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+}
+
+.box {
+  width: 300px;
+  height: 250px;
+  /* background-color: red; */
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.box1 {
+  position: absolute;
+  background-color: #9000ff;
+}
+
+.box2 {
+  position: absolute;
+  background-color: #55559f;
+  left: 50px;
+}
+
+.box3 {
+  position: absolute;
+  background-color: #b0b0eb;
+  left: 85px;
+}
+
+.TitleText {
+  position: absolute;
+  color: white;
+  left: 15px;
+  top: 50px;
+}
+
+.HiImg {
+  position: absolute;
+  width: 30px;
+  height: auto;
+  top: 45px;
+  left: 100px;
+}
+
+.SimImg {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  width: 68px;
+  height: auto;
+}
+
+.subText {
+  position: absolute;
+  color: white;
+  left: 15px;
+  top: 85px;
+}
+
+.productText {
+  position: absolute;
+  color: white;
+  left: 15px;
+  top: 108px;
+}
+
+.productList {
+  position: absolute;
+  color: white;
+  left: 15px;
+  top: 135px;
+  list-style-type: none;
+}
+
+.btn {
+  position: absolute;
+  background-color: #7272dd;
+  width: 100px;
+  height: 30px;
+  bottom: 15px;
+  right: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonText {
+  color: white;
+  font-size: 14px;
+}
+
+.circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #7272dd;
+  bottom: -220px;
+  right: -100px;
+  border-radius: 50%;
+}
+
+@font-face{
+  font-family: ftltlt-webfont;
+  src: url(ftltlt-webfont.woff);
+}
+
+body{
+    font-family: "ftltlt-webfont", sans-serif;
+}
